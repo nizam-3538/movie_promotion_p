@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Page Owner Name">
+    <meta name="owner" content="owner@example.com">
+    <title>241FA04605</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+
+    <div class="container">
+        <header>
+            <h1 class="movie-title">F1 [2025]</h1>
+            <p class="tagline">BREAKING THE LIMITS OF SPEED</p>
+
+            <div class="marquee-wrap" aria-hidden="false">
+                <div class="marquee" data-scroll="  Now playing in cinemas !    • Behind-the-scenes on YouTube   •  Stream on   Netflix  |  Amazon Prime Video  |  Disney+     • IMDb: 8.3/10     • Rotten Tomatoes: 92%">
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="media-section">
+                <div class="media-container tilt-element" id="poster-container">
+                    <img class="poster-image" src="assets/poster.jpg" alt="F1 [2025] movie poster">
+                </div>
+
+                <div class="media-container tilt-element" id="trailer-container">
+                    <video 
+                        class="poster-image" 
+                        controls 
+                        src="assets/trailer.mp4" 
+                        poster="assets/poster.jpg">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </section>
+
+            <section class="reviews-section">
+                <h2 class="section-title">Critical Reviews</h2>
+                <!-- Views counter (animates on load) -->
+                <div class="views-counter" aria-live="polite" style="text-align:center;margin-bottom:1rem;color:#dfefff">
+                    <strong id="views">0</strong> views
+                </div>
+                <div class="reviews-grid">
+                    <div class="review-card tilt-element">
+                        <h3>"An Adrenaline-Fueled Masterpiece!"</h3>
+                        <div class="rating">★★★★★</div>
+                        <p>"The sound design makes you feel like you're in the cockpit. The visuals are stunning, capturing the visceral intensity of motorsport like never before. A must-see on the biggest screen possible."</p>
+                        <span class="reviewer">- Velocity Times</span>
+                    </div>
+
+                    <div class="review-card tilt-element">
+                        <h3>"More Than Just a Race"</h3>
+                        <div class="rating">★★★★☆</div>
+                        <p>"Beyond the roaring engines and tire smoke, 'F1 2025' tells a deeply human story of rivalry, sacrifice, and the relentless pursuit of greatness. The drama off the track is just as compelling as the action on it."</p>
+                        <span class="reviewer">- Cinema Spectrum</span>
+                    </div>
+
+                    <div class="review-card tilt-element">
+                        <h3>"Technically Flawless"</h3>
+                        <div class="rating">★★★★★</div>
+                        <p>"As a lifelong F1 fan, I was blown away by the authenticity. The strategy, the engineering, and the split-second decisions are all portrayed with breathtaking accuracy. This film is a love letter to the sport."</p>
+                        <span class="reviewer">- Paddock Gazette</span>
+                    </div>
+                    <!-- Additional reviews to reach 9 total -->
+                    <div class="review-card tilt-element">
+                        <h3>"A Sensory Overload—in the Best Way"</h3>
+                        <div class="rating">★★★★★</div>
+                        <p>"Sound, editing, and cinematography create an immersive experience that feels every bit as thrilling as a live race. A landmark for sports cinema."</p>
+                        <span class="reviewer">- MotorFrame</span>
+                    </div>
+
+                    <div class="review-card tilt-element">
+                        <h3>"Spectacle and Heart"</h3>
+                        <div class="rating">★★★★☆</div>
+                        <p>"The film balances breathtaking set pieces with surprisingly tender character moments. It’s not just for fans—it's for anyone who loves great filmmaking."</p>
+                        <span class="reviewer">- ScreenPulse</span>
+                    </div>
+
+                    <div class="review-card tilt-element">
+                        <h3>"An Engineering Triumph"</h3>
+                        <div class="rating">★★★★★</div>
+                        <p>"From the pits to the paddock, every technical detail feels earned. The film respects the sport's intelligence while delivering heart-stopping drama."</p>
+                        <span class="reviewer">- TechTrack</span>
+                    </div>
+
+                    <div class="review-card tilt-element">
+                        <h3>"Pure Adrenaline"</h3>
+                        <div class="rating">★★★★☆</div>
+                        <p>"If you crave excitement, this movie gives it in spades. A few narrative stretches aside, it flies by with barely a breath to spare."</p>
+                        <span class="reviewer">- RushReview</span>
+                    </div>
+
+                    <div class="review-card tilt-element">
+                        <h3>"A Must for the Big Screen"</h3>
+                        <div class="rating">★★★★★</div>
+                        <p>"Some films feel made for the theater—this one demands it. The scale and impact are impossible to replicate on a small screen."</p>
+                        <span class="reviewer">- The BigScreen Digest</span>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="watch-section">
+                <h2 class="section-title">Where to Watch</h2>
+                <div class="watch-card">
+                    <h3>Stream / Rent</h3>
+                    <div class="ott-list">
+                        <a class="ott-link" href="https://www.netflix.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="ott-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 2v20l16-10L4 2z"/></svg>
+                            <span class="ott-label">Netflix</span>
+                        </a>
+                        <a class="ott-link" href="https://www.primevideo.com/" target="_blank" rel="noopener noreferrer">
+                             <svg class="ott-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M2 12h14v2H2zM20 6h2v12h-2z"/></svg>
+                            <span class="ott-label">Amazon Prime Video</span>
+                        </a>
+                        <a class="ott-link" href="https://www.disneyplus.com/" target="_blank" rel="noopener noreferrer">
+                            <svg class="ott-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor"/></svg>
+                            <span class="ott-label">Disney+</span>
+                        </a>
+                        <a class="ott-link" href="https://www.apple.com/apple-tv-plus/" target="_blank" rel="noopener noreferrer">
+                            <svg class="ott-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16 6c0-1.1-.9-2-2-2s-2 .9-2 2c0 1.25 1 2.88 2 4 1-1.12 2-2.75 2-4zM9 6C9 4.9 8.1 4 7 4S5 4.9 5 6c0 1.25 1 2.88 2 4 1-1.12 2-2.75 2-4zM12 12c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z"/></svg>
+                            <span class="ott-label">Apple TV+</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="ratings-section">
+                <h2 class="section-title">Ratings</h2>
+                <div class="ratings-grid">
+                    <a class="rating-card" href="https://www.imdb.com/" target="_blank" rel="noopener noreferrer">
+                        <svg class="rating-icon imdb" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        <div class="rating-meta">
+                            <span class="rating-name">IMDb</span>
+                            <strong class="score">8.3/10</strong>
+                        </div>
+                    </a>
+                    <a class="rating-card" href="https://www.rottentomatoes.com/" target="_blank" rel="noopener noreferrer">
+                        <svg class="rating-icon rt" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="currentColor"/></svg>
+                        <div class="rating-meta">
+                            <span class="rating-name">Rotten Tomatoes</span>
+                            <strong class="score">92%</strong>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <footer class="site-footer">
+                <div class="container footer-inner">
+                    <p>Page owner: <strong>Page Owner Name</strong> — <a href="mailto:owner@example.com">owner@example.com</a></p>
+                    <p>© 2025 Page Owner Name. All rights reserved.</p>
+                </div>
+            </footer>
+            <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Syed Asiya",
+              "email": "mailto:owner@example.com",
+              "url": "https://example.com"
+            }
+            </script>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
